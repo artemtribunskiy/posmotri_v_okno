@@ -1,14 +1,17 @@
+/* прелоадер для окна результатов */
+
 .result__video-container .preloader {
   position: relative;
-  inset: -376px 0 0 0;
+  inset: -405px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #545050;
   height: 100%;
-
+  z-index: 1;
 }  
 
+/* прелоадер для окна выбора */
 .content__list .preloader {
   position: relative;
   inset: 0;
@@ -17,6 +20,7 @@
   align-items: center;
   background: #545050;
   height: 100%;
+  z-index: 1;
 }  
 
 .preloader-chasing-squares {
