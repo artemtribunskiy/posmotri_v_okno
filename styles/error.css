@@ -1,8 +1,6 @@
 .error {
-  position: relative;
-  inset: -405px 0 0 0;
-  height: 100%;
-  z-index: 1;
+  position: absolute;
+  inset: 0;
   display: flex;
   justify-content: center;
   align-items: center;
