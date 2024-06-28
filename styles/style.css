@@ -65,6 +65,7 @@ ol {
 }
 
 .content__list {
+  position: relative;
   height: 298px;
   overflow-y: scroll;
   scrollbar-width: thin;
@@ -78,6 +79,7 @@ ol {
 }
 
 .result__video-container {
+  position: relative;
   box-sizing: content-box;
   height: 399px;
   overflow: hidden;
@@ -336,27 +338,4 @@ input[type="checkbox"]:checked + span::after {
   width: 395px;
   margin-left: 2px;
   margin-bottom: 3px;
-}
-
-/* прелоадер для окна результатов */
-.result__video-container .preloader {
-  position: relative;
-  inset: -405px 0 0 0;
-  height: 100%;
-  z-index: 1;
-}
-
-/* прелоадер для окна выбора */
-.content__list .preloader {
-  position: relative;
-  inset: 0;
-  height: 100%;
-  z-index: 1;
-}
-
-.result__video-container .error {
-  position: relative;
-  inset: -405px 0 0 0;
-  height: 100%;
-  z-index: 1;
 }
